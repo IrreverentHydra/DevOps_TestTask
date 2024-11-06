@@ -8,7 +8,7 @@
 ## Установка
 1. Клонируйте проект и установите зависимости:
     git clone <URL>
-    cd project_name
+    cd DevOps_TestTask
     pip install -r requirements.txt
 
 
@@ -25,4 +25,4 @@
     python main.py generate_versions <product_version> config/config.json
 
 ### Пример
-python main.py generate_versions "3.7.5" "config/config.json"
+python main.py generate_versions 3.7.5 config/config.json
